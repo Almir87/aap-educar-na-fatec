@@ -1,0 +1,421 @@
+﻿@charset "utf-8";
+
+body {
+    background-color: #efefef;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 45px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 26px;
+    text-align: center;
+}
+
+h5 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h6 {
+    font-size: 12px;
+    text-align: center;
+}
+
+
+p {
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+nav#menu {
+    display: block;
+}
+
+    nav#menu ul {
+        list-style: none;
+        text-transform: uppercase;
+        font-size: 14px;
+        position: absolute;
+        top: 0;
+        left: 100;
+        button:100;
+    }
+
+    nav#menu li {
+        display: inline-block;
+        background-color: rgb(226, 82, 82);
+        padding: 10px;
+        margin: 2px;
+        text-align: center;
+        transition: background-color 1s;
+    }
+
+        nav#menu li:hover {
+            background-color: #611616;
+        }
+
+    nav#menu h1 {
+        display: none;
+    }
+
+    nav#menu a {
+        color: #efefef;
+        text-decoration: none;
+    }
+
+nav#menu a:hover {
+            color: #1403f8
+}
+
+
+figure.logo-inicial {
+    top: 50px;
+    text-align: center;
+    border: 4px solid white;
+    box-shadow: 3px 3px 12px black;
+}
+
+figure.logo-fatec-paginas {
+    text-align: center;
+    border: 4px solid white;
+    box-shadow: 3px 3px 12px black;
+}
+
+
+div#corpo {
+    width: 1000px;
+    background-color: #ffffff;
+    margin: 20px auto 10px auto;
+    box-shadow: 0px 0px 10px black;
+    padding: 20px;
+}
+
+
+header#acessoaluno {
+    margin: auto auto auto 275px;
+}
+
+header#acessoaluno input#btnAutenticar {
+        margin: auto auto auto 240px;
+}
+
+header#acessoprofessor {
+    position: absolute;
+    left: 850px;
+    top: 410px;
+}
+
+header#acessoprofessor input#btnAutenticar {
+        margin: auto auto auto 130px;
+}
+
+header#professores img#professores {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+header#submenu img#estudante {
+    position: absolute;
+    left: 100px;
+    top: 390px;
+}
+
+header#submenu img#professores {
+    position: absolute;
+    left: 685px;
+    top: 390px;
+}
+
+header#submenu img#pessoas {
+    position: absolute;
+    left: 900px;
+    top: 265px;
+}
+
+header#submenu img#marketing {
+    position: absolute;
+    left: 900px;
+    top: 265px;
+}
+
+header#submenu img#financeira {
+    position: absolute;
+    left: 900px;
+    top: 280px;
+}
+
+header#submenu img#ingles {
+    position: absolute;
+    left: 900px;
+    top: 280px;
+}
+
+header#submenu img#prginternet {
+    position: absolute;
+    left: 940px;
+    top: 280px;
+}
+
+header#submenu img#redescomputadores {
+    position: absolute;
+    left: 940px;
+    top: 280px;
+}
+
+header#submenu img#profingles {
+    position: absolute;
+    left: 30px;
+    top: 80px;
+}
+
+header#submenu img#profgestaofinanceira {
+    position: absolute;
+    left: 30px;
+    top: 80px;
+}
+
+header#submenu img#profgestaopessoas {
+    position: absolute;
+    left: 30px;
+    top: 80px;
+}
+
+header#submenu img#profgestaomarketing {
+    position: absolute;
+    left: 30px;
+    top: 80px;
+}
+
+header#submenu img#profprginternet {
+    position: absolute;
+    left: 30px;
+    top: 80px;
+}
+
+header#submenu img#profredecomputadores {
+    position: absolute;
+    left: 30px;
+    top: 80px;
+}
+
+figure#logo-diciplinas img#ingles {
+    position: absolute;
+    left: 50px;
+    top: 320px;
+}
+
+figure#logo-diciplinas img#financeira {
+    position: absolute;
+    left: 400px;
+    top: 320px;
+}
+
+figure#logo-diciplinas img#pessoas {
+    position: absolute;
+    left: 780px;
+    top: 320px;
+}
+
+figure#logo-diciplinas img#marketing {
+    position: absolute;
+    left: 1050px;
+    top: 320px;
+}
+
+figure#logo-diciplinas img#prginternet {
+    position: absolute;
+    left: 400px;
+    top: 530px;
+}
+
+figure#logo-diciplinas img#redecomputadores {
+    position: absolute;
+    left: 800px;
+    top: 530px;
+}
+
+
+table#quadrodoaluno {
+    background-color: #ecbfbf;
+    text-align: center;
+    border: 4px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 12px black;
+    margin: auto auto auto 250px;
+}
+
+    table#quadrodoaluno tr#menuquadro {
+        background-color: #dddddd;
+        text-align: center;
+        border: 4px solid rgb(0, 0, 0);
+        box-shadow: 3px 3px 12px black;
+        margin: auto auto auto 250px;
+    }
+
+    table#quadrodoaluno tr#gestaodepessoas {
+        background-color: #d9f2fc;
+        text-align: center;
+        box-shadow: 3px 3px 12px black;
+        margin: auto auto auto 250px;
+    }
+
+    table#quadrodoaluno tr#ingles {
+        background-color: #d9f2fc;
+        text-align: center;
+        box-shadow: 3px 3px 12px black;
+        margin: auto auto auto 250px;
+    }
+
+    table#quadrodoaluno tr#redesdecomputadores {
+        background-color: #d9f2fc;
+        text-align: center;
+        box-shadow: 3px 3px 12px black;
+        margin: auto auto auto 250px;
+    }
+
+    table#quadroingles {
+    background-color: #ecbfbf;
+    text-align: center;
+    border: 4px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 12px black;
+    margin: 135px auto auto 103px;
+}
+
+table#quadrofinanceira {
+    background-color: #ecbfbf;
+    text-align: center;
+    border: 4px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 12px black;
+    margin: -35px auto auto 420px;
+}
+
+table#quadropessoas {
+    background-color: #ecbfbf;
+    text-align: center;
+    border: 4px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 12px black;
+    margin: -35px auto auto 780px;
+}
+
+table#quadromarketing {
+    background-color: #ecbfbf;
+    text-align: center;
+    border: 4px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 12px black;
+    margin: -35px auto auto 1070px;
+}
+
+table#quadroproginternet {
+    background-color: #ecbfbf;
+    text-align: center;
+    border: 4px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 12px black;
+    margin: 180px auto auto 370px;
+}
+
+table#quadroredecomputaodres {
+    background-color: #ecbfbf;
+    text-align: center;
+    border: 4px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 12px black;
+    margin: -35px auto auto 770px;
+}
+
+
+footer#rodape {
+    display: block;
+}
+
+    footer#rodape ul {
+        list-style: none;
+        text-transform: uppercase;
+        font-size: 14px;
+        position: absolute;
+        padding: 2px;
+        left: 100px;
+    }
+
+    footer#rodape li {
+        display: inline-block;
+        background-color: rgba(218, 168, 168, 6);
+        padding: 10px;
+        margin: 2px;
+        text-align: center;
+        transition: background-color 1s;
+    }
+
+        footer#rodape li:hover {
+            background-color: #7a885d;
+        }
+
+    footer#rodape a {
+        color: #efefef;
+        text-decoration: none;
+    }
+
+
+section#diciplina {
+    display: block;
+    width: 700px;
+    float: left;
+    border-right: 2px solid #000000;
+    padding: 15px;
+}
+
+aside#avaliacoes {
+    display: block;
+    width: 600px;
+    float: right;
+}
+
+
+footer#rodapeprof {
+    clear: both;
+    border-top: 2px solid #000000;
+}
+
+
+footer#rodapeprof {
+    display: block;
+}
+
+
+    footer#rodapeprof ul {
+        list-style: none;
+        text-transform: uppercase;
+        font-size: 14px;
+        position: absolute;
+        padding: 2px;
+        left: 100px;
+    }
+
+    footer#rodapeprof li {
+        display: inline-block;
+        background-color: rgba(218, 168, 168, 6);
+        padding: 10px;
+        margin: 2px;
+        text-align: center;
+        transition: background-color 1s;
+    }
+
+        footer#rodapeprof li:hover {
+            background-color: #7a885d;
+        }
+
+    footer#rodapeprof a {
+        color: #efefef;
+        text-decoration: none;
+    }

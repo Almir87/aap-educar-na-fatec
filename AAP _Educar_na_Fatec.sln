@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AAP _Educar_na_Fatec", "AAP _Educar_na_Fatec\AAP _Educar_na_Fatec.csproj", "{2F2ACCBB-087E-4811-82ED-F5BB51AFE942}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F2ACCBB-087E-4811-82ED-F5BB51AFE942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F2ACCBB-087E-4811-82ED-F5BB51AFE942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F2ACCBB-087E-4811-82ED-F5BB51AFE942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F2ACCBB-087E-4811-82ED-F5BB51AFE942}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF4BC6DA-76B0-455C-9DD1-776DA35A9CB1}
+	EndGlobalSection
+EndGlobal
